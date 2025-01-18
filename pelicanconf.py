@@ -34,4 +34,4 @@ RELATIVE_URLS = True
 THEME = 'mediumfox'
 TYPOGRIFY = True
 DEFAULT_PAGINATION = 10
-SITE_IMAGE_URL = SITEURL + 'theme/images/logo.png'
+#SITE_IMAGE_URL = SITEURL + 'theme/images/logo.png'
