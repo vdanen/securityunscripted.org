@@ -36,6 +36,7 @@ TYPOGRIFY = True
 DEFAULT_PAGINATION = 10
 #SITE_IMAGE_URL = SITEURL + 'theme/images/logo.png'
 
-AUTHOR_TWITTER = vdanen
-AUTHOR_LINKEDIN = vdanen
-AUTHOR_YOUTUBE = @SecurityUnscripted
+AUTHOR_TWITTER = 'vdanen'
+AUTHOR_LINKEDIN = 'vdanen'
+AUTHOR_YOUTUBE = '@SecurityUnscripted'
+
