@@ -1,16 +1,47 @@
-#AUTHOR = 'Vincent Danen'
-AUTHOR = 'Mystery Person'
+AUTHOR = 'Vincent Danen'
 SITENAME = 'Security Unscripted'
-SITEURL = "https://securityunscripted.org/"
+SITEURL = "https://securityunscripted.org"
 
 PATH = "content"
 
 TIMEZONE = 'America/Edmonton'
-
+DATE_FORMATS = {"en": "%b %d, %Y"}
 DEFAULT_LANG = 'en'
 
+# Plugins and extensions
+MARKDOWN = {
+    "extension_configs": {
+        "markdown.extensions.admonition": {},
+        "markdown.extensions.codehilite": {"css_class": "highlight"},
+        "markdown.extensions.extra": {},
+        "markdown.extensions.meta": {},
+        "markdown.extensions.toc": {"permalink": " "},
+    }
+}
+
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = [
+    "extract_toc",
+    "liquid_tags.img",
+    "liquid_tags.include_code",
+    "liquid_tags.youtube",
+    "neighbors",
+    "related_posts",
+    "render_math",
+    "series",
+    "share_post",
+]
+
+SITEMAP = {
+    "format": "xml",
+    "priorities": {"articles": 0.5, "indexes": 0.5, "pages": 0.5},
+    "changefreqs": {"articles": "monthly", "indexes": "daily", "pages": "monthly"},
+}
+
+STATIC_PATHS = ['covers']
+
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = 'recent.atom'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -22,21 +53,19 @@ AUTHOR_FEED_RSS = None
 #)
 #
 ## Social widget
-#SOCIAL = (
-#    ("You can add links in your config file", "#"),
-#    ("Another social link", "#"),
-#)
+SOCIAL = (
+        ("twitter", "https://x.com/vdanen"),
+        ("linkedIn", "https://linkedin.com/in/vdanen"),
+        ("youtube", "https://www.youtube.com/playlist?list=PLbkgg0hYLSphsgXABfS_XkAi2fqjGPoQT"),
+)
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
 # Appearance
-THEME = 'mediumfox'
+THEME = 'bootstrap2-dark'
 TYPOGRIFY = True
 DEFAULT_PAGINATION = 10
 #SITE_IMAGE_URL = SITEURL + 'theme/images/logo.png'
 
-AUTHOR_TWITTER = 'vdanen'
-AUTHOR_LINKEDIN = 'vdanen'
-AUTHOR_YOUTUBE = '@SecurityUnscripted'
-
+#SIDEBAR_CUSTOM = '<p>Ome</p><p>Two</p>'
