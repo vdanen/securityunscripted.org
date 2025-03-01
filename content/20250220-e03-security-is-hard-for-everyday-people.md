@@ -13,6 +13,7 @@ Security is hard for the professionals, and it's even harder for the everyday pe
 {% youtube 2Nt2ZTEcwno %}
 
 References:
+
 * [# The Human Element Of Risk Management](https://www.forbes.com/councils/forbestechcouncil/2025/02/06/the-human-element-of-risk-management/)
 * [Security Companion](https://security-companion.net/en/)
 * [The Human Firewall is a Lie](https://www.anitian.com/human-firewall-lie/)

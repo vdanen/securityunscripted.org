@@ -13,6 +13,7 @@ The future is clearly AI.  Take a look around and you see it everywhere!  Yet, t
 {% youtube PGEmj_2Vevk %}
 
 References:
+
 * [The Power Of Open Collaboration: How Open Source Is Shaping The Future Of AI](https://www.forbes.com/councils/forbestechcouncil/2025/01/03/the-power-of-open-collaboration-how-open-source-is-shaping-the-future-of-ai/)
 * [AI Alliance](https://thealliance.ai/)
 * [Coalition for Secure AI](https://www.coalitionforsecureai.org/)

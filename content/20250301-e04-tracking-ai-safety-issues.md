@@ -13,6 +13,7 @@ When it comes to tracking security issues, we've had over two decades of process
 {% youtube 0WhEBMFXFRk %}
 
 References:
+
 * [Bugtraq](https://en.wikipedia.org/wiki/Bugtraq)
 * [CVE](https://cve.org/)
 * [Building Trust: Foundations of Security, Safety and Transparency in AI](https://arxiv.org/pdf/2411.12275)
