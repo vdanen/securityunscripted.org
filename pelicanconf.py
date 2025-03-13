@@ -63,7 +63,7 @@ SOCIAL = (
 RELATIVE_URLS = True
 
 # Appearance
-THEME = 'bootstrap2-dark'
+THEME = 'su-dark'
 TYPOGRIFY = True
 DEFAULT_PAGINATION = 10
 #SITE_IMAGE_URL = SITEURL + 'theme/images/logo.png'
