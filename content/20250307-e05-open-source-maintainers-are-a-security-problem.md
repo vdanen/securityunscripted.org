@@ -6,7 +6,6 @@ Tags: open source, maintainers
 Slug: e05-open-source-maintainers-are-a-security-problem
 Status: published
 
-![image]({static}/covers/e05.png)
 
 How dire is the state of security when it comes to open source, particularly the "problem" of maintainers?  It's a tricky situation given all that's going on.  There's developer burnout, the lack of gratitude (and funding) from end users, and ever-increasing demands for regulation and secure development.  It sounds like a kettle that's starting to boil over, but perhaps it isn't all doom and gloom -- if we can move forward properly.
 
