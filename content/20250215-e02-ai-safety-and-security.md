@@ -1,4 +1,4 @@
-Title: E02: Ai safety and security
+Title: E02: AI safety and security
 Author: Security Unscripted
 Date: 2025-02-15 10:00
 Category: Podcast

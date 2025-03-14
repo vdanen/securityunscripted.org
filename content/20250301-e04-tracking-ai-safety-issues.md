@@ -1,4 +1,4 @@
-Title: E04: Tracking Ai safety issues
+Title: E04: Tracking AI safety issues
 Author: Security Unscripted
 Date: 2025-03-01 07:00
 Category: Podcast
