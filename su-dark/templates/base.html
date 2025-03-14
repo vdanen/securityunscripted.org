@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,107 +8,107 @@
     <meta name="author" content="{{ AUTHOR }}">
 
     <!-- Le styles -->
-    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.dark.css" type="text/css" />
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.dark.css" type="text/css"/>
     <style type="text/css">
-      :root {
-        --hacker-green: #149414;
-        --dark-bg: #0a0a0a;
-        --darker-bg: #000000;
-        --text-color: #c0c0c0;
-      }
-      
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-        background-color: var(--dark-bg);
-        color: var(--text-color);
-        font-family: 'Source Code Pro', monospace;
-        font-size: 16px;
-        line-height: 1.6;
-      }
+        :root {
+          --hacker-green: #149414;
+          --dark-bg: #0a0a0a;
+          --darker-bg: #000000;
+          --text-color: #c0c0c0;
+        }
 
-      p {
-        margin-bottom: 1.2em;
-        font-size: 16px;
-      }
+        body {
+          padding-top: 60px;
+          padding-bottom: 40px;
+          background-color: var(--dark-bg);
+          color: var(--text-color);
+          font-family: 'Source Code Pro', monospace;
+          font-size: 16px;
+          line-height: 1.6;
+        }
 
-      .navbar-inner {
-        background-color: var(--darker-bg);
-        border-bottom: 1px solid var(--hacker-green);
-      }
+        p {
+          margin-bottom: 1.2em;
+          font-size: 16px;
+        }
 
-      .navbar .brand {
-        font-size: 20px;
-        color: var(--hacker-green);
-        text-shadow: 0 0 10px var(--hacker-green);
-      }
+        .navbar-inner {
+          background-color: var(--darker-bg);
+          border-bottom: 1px solid var(--hacker-green);
+        }
 
-      .navbar .nav > li > a {
-        font-size: 15px;
-        color: var(--text-color);
-        transition: all 0.3s ease;
-      }
+        .navbar .brand {
+          font-size: 20px;
+          color: var(--hacker-green);
+          text-shadow: 0 0 10px var(--hacker-green);
+        }
 
-      .navbar .nav > li > a:hover {
-        color: var(--hacker-green);
-        text-shadow: 0 0 5px var(--hacker-green);
-      }
+        .navbar .nav > li > a {
+          font-size: 15px;
+          color: var(--text-color);
+          transition: all 0.3s ease;
+        }
 
-      .sidebar-nav {
-        padding: 15px;
-        background-color: var(--darker-bg);
-        border: 1px solid var(--hacker-green);
-        box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
-      }
+        .navbar .nav > li > a:hover {
+          color: var(--hacker-green);
+          text-shadow: 0 0 5px var(--hacker-green);
+        }
 
-      h1 { font-size: 32px; margin-bottom: 20px; }
-      h2 { font-size: 28px; margin-bottom: 18px; }
-      h3 { font-size: 24px; margin-bottom: 16px; }
-      h4 { font-size: 20px; margin-bottom: 14px; }
-      h5 { font-size: 18px; margin-bottom: 12px; }
-      h6 { font-size: 16px; margin-bottom: 10px; }
+        .sidebar-nav {
+          padding: 15px;
+          background-color: var(--darker-bg);
+          border: 1px solid var(--hacker-green);
+          box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
+        }
 
-      a {
-        color: var(--hacker-green);
-        text-decoration: none;
-        transition: all 0.3s ease;
-      }
+        h1 { font-size: 32px; margin-bottom: 20px; }
+        h2 { font-size: 28px; margin-bottom: 18px; }
+        h3 { font-size: 24px; margin-bottom: 16px; }
+        h4 { font-size: 20px; margin-bottom: 14px; }
+        h5 { font-size: 18px; margin-bottom: 12px; }
+        h6 { font-size: 16px; margin-bottom: 10px; }
 
-      a:hover {
-        color: #fff;
-        text-shadow: 0 0 5px var(--hacker-green);
-        text-decoration: none;
-      }
+        a {
+          color: var(--hacker-green);
+          text-decoration: none;
+          transition: all 0.3s ease;
+        }
 
-      .tag-1 { font-size: 18pt; }
-      .tag-2 { font-size: 15pt; }
-      .tag-3 { font-size: 12pt; }
-      .tag-4 { font-size: 10pt; }
+        a:hover {
+          color: #fff;
+          text-shadow: 0 0 5px var(--hacker-green);
+          text-decoration: none;
+        }
 
-      .container-fluid {
-        padding-left: 2rem;
-        padding-right: 2rem;
-      }
+        .tag-1 { font-size: 18pt; }
+        .tag-2 { font-size: 15pt; }
+        .tag-3 { font-size: 12pt; }
+        .tag-4 { font-size: 10pt; }
 
-      /* Update any max-width constraints */
-      .main-content {
-        width: 100%;
-        max-width: none;
-      }
+        .container-fluid {
+          padding-left: 2rem;
+          padding-right: 2rem;
+        }
 
-      .article-content {
-        width: 100%;
-        max-width: none;
-      }
+        /* Update any max-width constraints */
+        .main-content {
+          width: 100%;
+          max-width: none;
+        }
+
+        .article-content {
+          width: 100%;
+          max-width: none;
+        }
     </style>
     <link href="{{ SITEURL }}/theme/css/bootstrap-responsive.dark.css" rel="stylesheet">
-        <link href="{{ SITEURL }}/theme/css/font-awesome.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/theme/css/font-awesome.css" rel="stylesheet">
 
     <link href="{{ SITEURL }}/theme/css/pygments.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
     <!-- Le fav and touch icons -->
@@ -117,95 +117,87 @@
     <link rel="apple-touch-icon" sizes="72x72" href="{{ SITEURL }}/theme/images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="{{ SITEURL }}/theme/images/apple-touch-icon-114x114.png">
 
-    <link href="{{ SITEURL }}/{{ FEED }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
+    <link href="{{ SITEURL }}/{{ FEED }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed"/>
     {% if FEED_RSS %}
-    <link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+    <link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate"
+          title="{{ SITENAME }} RSS Feed"/>
     {% endif %}
 
     <!-- Add Source Code Pro font -->
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
 
     <link href="{{ SITEURL }}/theme/css/custom-dark.css" rel="stylesheet">
+</head>
 
-  </head>
-
-  <body>
-
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
+<body>
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
         <div class="container-fluid">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="{{ SITEURL }}/index.html">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              {% for title, link in MENUITEMS %}
-                  <li><a href="{{ link }}">{{ title }}</a></li>
-              {% endfor %}
-              {% if DISPLAY_PAGES_ON_MENU %}
-              {% for page in pages %}
-                <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
-              {% endfor %}
-                          <li class="divider-vertical"></li>
-              {% endif %}
-              {% for cat, null in categories %}
-                  <li {% if cat == category %}class="active"{% endif %}>
-                    <a href="{{ SITEURL }}/{{ cat.url }}">
-						<i class="icon-folder-open icon-large"></i>{{ cat }}
-					</a>
-                  </li>
-              {% endfor %}
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="{{ SITEURL }}/index.html">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{
+                SITESUBTITLE }}</strong>{% endif %}</a>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    {% for title, link in MENUITEMS %}
+                    <li><a href="{{ link }}">{{ title }}</a></li>
+                    {% endfor %}
+                    {% if DISPLAY_PAGES_ON_MENU %}
+                    {% for page in pages %}
+                    <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                    {% endfor %}
+                    <li class="divider-vertical"></li>
+                    {% endif %}
+                    {% for cat, null in categories %}
+                    <li {% if cat== category %}class="active" {% endif %}>
+                        <a href="{{ SITEURL }}/{{ cat.url }}">
+                            <i class="icon-folder-open icon-large"></i>{{ cat }}
+                        </a>
+                    </li>
+                    {% endfor %}
 
-                          <ul class="nav pull-right">
-                                <li><a href="{{ SITEURL }}/archives.html"><i class="icon-th-list"></i>Archives</a></li>
-                          </ul>
-
-            </ul>
-            <!--<p class="navbar-text pull-right">Logged in as <a href="#">username</a></p>-->
-          </div><!--/.nav-collapse -->
+                    <ul class="nav pull-right">
+                        <li><a href="{{ SITEURL }}/archives.html"><i class="icon-th-list"></i>Archives</a></li>
+                    </ul>
+                </ul>
+                <!--<p class="navbar-text pull-right">Logged in as <a href="#">username</a></p>-->
+            </div><!--/.nav-collapse -->
         </div>
-      </div>
     </div>
+</div>
 
-    <div class="container-fluid">
-      <div class="row">
+<div class="container-fluid">
+    <div class="row">
         <div class="col-lg-12" id="content">
             {% block content %}
             {% endblock %}
         </div>
+    </div><!--/row-->
 
-
-
-      </div><!--/row-->
-
-      <footer id="footer" class="her-row">
-          {% include 'sidebar.html' %}
+    <footer id="footer" class="her-row">
+        {% include 'sidebar.html' %}
         <div class="container-fluid">
-          <address id="about">
-<p>Security Unscripted is a non-professional passion project by Vincent
-Danen to talk about interesting security things.
-All the content is freely available under a <a
-href="https://creativecommons.org/licenses/by/4.0/">Creative
-Commons BY</a> license.</p>
+            <address id="about">
+                <p>Security Unscripted is a non-professional passion project by Vincent  Danen to talk about
+                    interesting security things. All the content is freely available under a
+                    <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY</a> license.</p>
 
-<p>The content, views, and opinions on this web site and podcast are those
-of the speakers and do not reflect their current or future employers. The
-podcast is not sponsored or endorsed in any way, and any products or
-technologies that may be referred to in any episode are not guarantees or
-endorsements of fitness for any use.</p>
-          </address><!-- /#about -->
+                <p>The content, views, and opinions on this web site and podcast are those  of the speakers and do
+                    not reflect their current or future employers. The podcast is not sponsored or endorsed in any
+                    way, and any products or technologies that may be referred to in any episode are not guarantees or
+                    endorsements of fitness for any use.</p>
+            </address><!-- /#about -->
         </div>
-      </footer>
+    </footer>
+</div><!--/.fluid-container-->
 
-    </div><!--/.fluid-container-->
-
-    <!-- Le javascript -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{ SITEURL }}/theme/js/jquery-1.7.2.min.js"></script>
-    <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
-    <script src="{{ SITEURL }}/theme/js/matrix.js"></script>
-  </body>
+<!-- Le javascript -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{{ SITEURL }}/theme/js/jquery-1.7.2.min.js"></script>
+<script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
+<script src="{{ SITEURL }}/theme/js/matrix.js"></script>
+</body>
 </html>

@@ -2,14 +2,14 @@
 {% block title %}{{ article.title | striptags }}{% endblock %}
 {% block content %}
 <section id="content">
-        <article>
-                <header>
-                        <h1><a href="{{ SITE_URK }}/{{ article.url }}">{{ article.title | striptags }}</a></h1>
-                </header>
-                <div class="entry-content">
-                        {% include 'article_infos.html' %}
-                {{ article.content }}
-                </div><!-- /.entry-content -->
-        </article>
+    <article>
+        <header>
+            <h1><a href="{{ SITE_URK }}/{{ article.url }}">{{ article.title | striptags }}</a></h1>
+        </header>
+        <div class="entry-content">
+            {% include 'article_infos.html' %}
+            {{ article.content }}
+        </div><!-- /.entry-content -->
+    </article>
 </section>
 {% endblock %}

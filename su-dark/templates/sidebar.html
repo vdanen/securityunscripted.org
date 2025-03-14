@@ -1,4 +1,3 @@
-
 {% if SOCIAL %}
 
 <div class="social-links">
@@ -7,12 +6,13 @@
         <li><a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate"><i class="icon-bookmark icon-large"></i>atom feed</a></li>
         {% endif %}
         {% if FEED_RSS %}
-        <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate"><i class="icon-bookmark icon-large"></i>rss feed</a></li>
+        <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate"><i class="icon-bookmark icon-large"></i>rss feed</a>
+        </li>
         {% endif %}
         {% for name, link in SOCIAL %}
         <li><a href="{{ link }}" target="_blank"><i class="fa fa-{{ name }}"></i> {{ name }} </a></li>
         {% endfor %}
     </ul>
 </div>
-<br />
+<br/>
 {% endif %}
