@@ -116,4 +116,46 @@ footer {
   background-color: var(--hacker-green);
   color: var(--darker-bg);
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
-} 
+}
+
+.social-links {
+    margin: 1rem 0;
+}
+
+.social-links-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links-list li a {
+    font-size: 1.5rem;
+    color: #333;  /* or whatever color you prefer */
+    transition: color 0.3s ease;
+}
+
+.social-links-list li a:hover {
+    color: #666;  /* or whatever hover color you prefer */
+}
+
+.post-info {
+    margin: 10px 0;
+    padding: 5px 0;
+    /* border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee; */
+    font-size: 0.9em;
+    color: #666;
+}
+
+.post-info .label {
+    font-weight: bold;
+}
+
+.post-info abbr {
+    border: none;
+    text-decoration: none;
+}

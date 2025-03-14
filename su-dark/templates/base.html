@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.dark.css" type="text/css" />
     <style type="text/css">
       :root {
-        --hacker-green: #00ff00;
+        --hacker-green: #149414;
         --dark-bg: #0a0a0a;
         --darker-bg: #000000;
         --text-color: #c0c0c0;
@@ -61,11 +61,6 @@
         box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
       }
 
-      .well {
-        background-color: var(--darker-bg);
-        border-color: var(--hacker-green);
-      }
-
       h1 { font-size: 32px; margin-bottom: 20px; }
       h2 { font-size: 28px; margin-bottom: 18px; }
       h3 { font-size: 24px; margin-bottom: 16px; }
@@ -89,6 +84,22 @@
       .tag-2 { font-size: 15pt; }
       .tag-3 { font-size: 12pt; }
       .tag-4 { font-size: 10pt; }
+
+      .container-fluid {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+
+      /* Update any max-width constraints */
+      .main-content {
+        width: 100%;
+        max-width: none;
+      }
+
+      .article-content {
+        width: 100%;
+        max-width: none;
+      }
     </style>
     <link href="{{ SITEURL }}/theme/css/bootstrap-responsive.dark.css" rel="stylesheet">
         <link href="{{ SITEURL }}/theme/css/font-awesome.css" rel="stylesheet">
@@ -161,21 +172,19 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="span9" id="content">
+        <div class="col-lg-12" id="content">
             {% block content %}
             {% endblock %}
-        </div><!--/span-->
+        </div>
 
-                <div class="span3 well sidebar-nav" id="sidebar">
-            {% include 'sidebar.html' %}
-        </div><!--/.well -->
+
 
       </div><!--/row-->
 
-      <hr>
-
-      <footer>
-        <address id="about">
+      <footer id="footer" class="her-row">
+          {% include 'sidebar.html' %}
+        <div class="container-fluid">
+          <address id="about">
 <p>Security Unscripted is a non-professional passion project by Vincent
 Danen to talk about interesting security things.
 All the content is freely available under a <a
@@ -187,7 +196,8 @@ of the speakers and do not reflect their current or future employers. The
 podcast is not sponsored or endorsed in any way, and any products or
 technologies that may be referred to in any episode are not guarantees or
 endorsements of fitness for any use.</p>
-        </address><!-- /#about -->
+          </address><!-- /#about -->
+        </div>
       </footer>
 
     </div><!--/.fluid-container-->
