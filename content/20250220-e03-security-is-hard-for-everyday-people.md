@@ -6,8 +6,6 @@ Tags: phishing
 Slug: e03-security-is-hard-for-everyday-people
 Status: published
 
-![image]({static}/covers/e03.png)
-
 Security is hard for the professionals, and it's even harder for the everyday people who live and work around us, those who are more often than not likely to be the victims of malicious attacks.  Vincent Danen convinced his wife Angela to come on and talk about a recent incident that happened to her.  As well they discuss some of the dangers and pitfalls that exist for the everyday people around us and, perhaps, ways we can make things easier.
 
 {% youtube 2Nt2ZTEcwno %}

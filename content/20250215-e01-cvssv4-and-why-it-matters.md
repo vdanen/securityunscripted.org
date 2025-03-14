@@ -6,8 +6,6 @@ Tags: cvss
 Slug: e01-cvssv4-and-why-it-matters
 Status: published
 
-![image]({static}/covers/e01.png)
-
 In the first episode of Security Unscripted, Austin Kimbrell and Vincent Danen talk about some of the changes in CVSSv4 and why they matter as well as some of the challenges the security community at large has with the current use of CVSS, some challenges with respect to adoption, and just how many people still use CVSSv2 (even though CVSSv3 came out almost a decade ago!).
 
 {% youtube v9NRD1nWER0 %}

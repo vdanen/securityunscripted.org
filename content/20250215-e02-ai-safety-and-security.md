@@ -6,8 +6,6 @@ Tags: ai, safety
 Slug: e02-ai-safety-and-security
 Status: published
 
-![image]({static}/covers/e02.png)
-
 The future is clearly AI.  Take a look around and you see it everywhere!  Yet, there are a lot of unknowns -- things we're just starting to figure out.  Concepts like security in IT are fairly well established, what does it mean for AI?  What about safety?  Are the two the same?  Florencio Cano Gabarda and Vincent Danen talk about some of the questions and concerns around AI safety and security.
 
 {% youtube PGEmj_2Vevk %}

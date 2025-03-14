@@ -6,8 +6,6 @@ Tags: ai, safety
 Slug: e04-tracking-ai-safety-issues
 Status: published
 
-![image]({static}/covers/e04.png)
-
 When it comes to tracking security issues, we've had over two decades of process and experience.  People know what to expect when it comes to tracking security issues and entire ecosystems have sprung up around vulnerability management.  Vincent Danen and Huzaifa Sidhpurwala discuss this for AI, and in particular AI safety.  AI security may be fairly straightforward, but safety isn't the same as security even though they're similar.  What might the future of AI safety tracking look like?
 
 {% youtube 0WhEBMFXFRk %}
